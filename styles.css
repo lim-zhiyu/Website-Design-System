@@ -1,4 +1,61 @@
-/*Colours section*/
-.colours {
+/*Global rules*/
+body {
+  font-family: sans-serif;
+}
+
+
+
+header {
+  text-align: center;
+}
+
+
+
+/*colors section*/
+.colorSection {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
   border: 1px solid black;
+  padding: 10px;
+}
+
+.sectionTitle {
+  text-align: center;
+}
+
+.colorBoxContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.colorBox {
+  display: inline-block;
+  border: 1px solid black;
+  min-width: 200px;
+  height: 80px;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.colorName {
+  display: block;
+  margin: 12px 0;
+}
+
+.hexValue {
+  display: block;
+}
+
+.color1 {
+  background-color: AliceBlue;
+}
+
+.color2 {
+  background-color: LemonChiffon;
+}
+
+.color3 {
+  background-color: LavenderBlush;
 }
