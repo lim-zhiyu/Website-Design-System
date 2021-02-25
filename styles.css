@@ -3,30 +3,29 @@ body {
   font-family: sans-serif;
 }
 
-
-
 header {
   text-align: center;
 }
 
-
-
-/*colors section*/
-.colorSection {
+.h2Section {
   display: flex;
   flex-direction: column;
   width: 1000px;
-  margin: 0 auto;
+  margin: 25px auto;
   border: 1px solid black;
   padding: 10px;
 }
 
+
+
+/*Color section*/
 .sectionTitle {
   text-align: center;
 }
 
 .colorBoxContainer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -35,7 +34,7 @@ header {
   border: 1px solid black;
   min-width: 200px;
   height: 80px;
-  margin: 0 5px;
+  margin: 5px;
   text-align: center;
 }
 
@@ -58,4 +57,11 @@ header {
 
 .color3 {
   background-color: LavenderBlush;
+}
+
+
+
+/*Font section*/
+.font1 {
+  font-family: 'Roboto', sans-serif;
 }

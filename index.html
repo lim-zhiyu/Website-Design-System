@@ -4,13 +4,17 @@
     <meta charset="utf-8">
     <title>My Website Design System</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
   </head>
   <body>
     <header>
       <h1>My Website Style Guide</h1>
     </header>
     <main>
-      <div class="colorSection">
+      <!-- Color section -->
+      <div class="h2Section">
         <div class="sectionTitle">
           <h2>Colours</h2>
         </div>
@@ -29,9 +33,33 @@
           </div>
         </div>
       </div>
+
+
+
+      <!-- Font section -->
+      <div class="h2Section">
+        <div class="sectionTitle">
+          <h2>Fonts</h2>
+        </div>
+        <div class="fontBoxContainer">
+          <div class="fontBox font1">
+            <span class="fontName">Roboto</span>
+            <span class="fontExample">The quick brown fox jumps over the lazy dog.</span>
+          </div>
+        </div>
+
+      </div>
+
+
     </main>
   </body>
 </html>
 
 
-<!-- https://www.w3schools.com/colors/colors_names.asp -->
+<!--
+TODO
+- Add other styles of Roboto font (bold, italic)
+- Add more fonts other than Roboto
+- Figure out a pattern that makes CSS rules applicable to all the same-level container divs for every section
+
+-->
