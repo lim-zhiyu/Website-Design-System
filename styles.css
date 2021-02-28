@@ -1,3 +1,10 @@
+/*
+Google Fonts:
+font-family: 'DotGothic16', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Saira Condensed', sans-serif;
+*/
+
 /*Global rules*/
 body {
   font-family: sans-serif;
@@ -7,7 +14,11 @@ header {
   text-align: center;
 }
 
-.h2Section {
+h3 {
+  text-align: center;
+}
+
+.mainSection {
   display: flex;
   flex-direction: column;
   width: 1000px;
@@ -16,14 +27,24 @@ header {
   padding: 10px;
 }
 
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
 
+.dotGothic16 {
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.sairaCondensed {
+  font-family: 'Saira Condensed', sans-serif;
+}
 
 /*Color section*/
 .sectionTitle {
   text-align: center;
 }
 
-.colorBoxContainer {
+.sectionContent {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -62,6 +83,19 @@ header {
 
 
 /*Font section*/
-.font1 {
-  font-family: 'Roboto', sans-serif;
+.fontBox {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid black;
+  min-width: 350px;
+  margin: 5px;
+}
+
+.fontExamplesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.fontExample {
+  margin: 8px;
 }

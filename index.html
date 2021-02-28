@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <title>My Website Design System</title>
     <link rel="stylesheet" href="styles.css">
+    <!--Google Fonts-->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Roboto:ital,wght@0,400;0,700;1,400&family=Saira+Condensed:wght@200;400;700&display=swap');
     </style>
   </head>
   <body>
@@ -14,11 +15,11 @@
     </header>
     <main>
       <!-- Color section -->
-      <div class="h2Section">
+      <div class="mainSection">
         <div class="sectionTitle">
           <h2>Colours</h2>
         </div>
-        <div class="colorBoxContainer">
+        <div class="sectionContent">
           <div class="colorBox color1">
             <span class="colorName">AliceBlue</span>
             <span class="hexValue">#F0F8FF</span>
@@ -37,17 +38,38 @@
 
 
       <!-- Font section -->
-      <div class="h2Section">
+      <div class="mainSection">
         <div class="sectionTitle">
           <h2>Fonts</h2>
         </div>
-        <div class="fontBoxContainer">
-          <div class="fontBox font1">
-            <span class="fontName">Roboto</span>
-            <span class="fontExample">The quick brown fox jumps over the lazy dog.</span>
+        <div class="sectionContent">
+          <div class="fontBox roboto">
+            <span class="fontName"><h3>Roboto</h3></span>
+            <div class="fontExamplesContainer">
+              <span class="fontExample example1">The quick brown fox jumps over the lazy dog.</span>
+              <span class="fontExample example2"><i>The quick brown fox jumps over the lazy dog.</i></span>
+              <span class="fontExample example3"><b>The quick brown fox jumps over the lazy dog.</b></span>
+            </div>
           </div>
-        </div>
 
+          <div class="fontBox dotGothic16">
+            <span class="fontName"><h3>DotGothic16</h3></span>
+            <div class="fontExamplesContainer">
+              <span class="fontExample example1">The quick brown fox jumps over the lazy dog.</span>
+            </div>
+          </div>
+
+          <div class="fontBox sairaCondensed">
+            <span class="fontName"><h3>Saira Condensed</h3></span>
+            <div class="fontExamplesContainer">
+              <span class="fontExample example1">The quick brown fox jumps over the lazy dog.</span>
+              <span class="fontExample example2"><i>The quick brown fox jumps over the lazy dog.</i></span>
+              <span class="fontExample example3"><b>The quick brown fox jumps over the lazy dog.</b></span>
+            </div>
+          </div>
+
+        </div>
+      </div>
       </div>
 
 
@@ -58,8 +80,6 @@
 
 <!--
 TODO
-- Add other styles of Roboto font (bold, italic)
-- Add more fonts other than Roboto
 - Figure out a pattern that makes CSS rules applicable to all the same-level container divs for every section
-
+- Make the DotGothic16 example center
 -->
