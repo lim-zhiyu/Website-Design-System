@@ -5,28 +5,20 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Saira Condensed', sans-serif;
 */
 
+
+
 /*Global rules*/
+
+
 body {
   font-family: sans-serif;
-}
-
-header {
   text-align: center;
+  box-sizing: border-box;
 }
 
-h3 {
-  text-align: center;
-}
 
-.mainSection {
-  display: flex;
-  flex-direction: column;
-  width: 1000px;
-  margin: 25px auto;
-  border: 1px solid black;
-  padding: 10px;
-}
 
+/*Fonts*/
 .roboto {
   font-family: 'Roboto', sans-serif;
 }
@@ -39,25 +31,47 @@ h3 {
   font-family: 'Saira Condensed', sans-serif;
 }
 
-/*Color section*/
-.sectionTitle {
-  text-align: center;
+
+
+/*Apply to all main sections*/
+.mainSection {
+  width: 1000px;
+  margin: 25px auto;
+  border: 1px solid black;
+  padding: 10px;
 }
 
 .sectionContent {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+
+/*Color section*/
+
+
 .colorBox {
   display: inline-block;
   border: 1px solid black;
-  min-width: 200px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   margin: 5px;
   text-align: center;
 }
+
+/* Test Begin */
+
+.colorOne {
+  border: 1px solid black;
+}
+
+.colorInfo {
+  display: inline-block;
+}
+
+/* Test Ends */
 
 .colorName {
   display: block;
@@ -69,15 +83,23 @@ h3 {
 }
 
 .color1 {
-  background-color: AliceBlue;
+  background-color: #EACDD0;
 }
 
 .color2 {
-  background-color: LemonChiffon;
+  background-color: #FBF9F9;
 }
 
 .color3 {
-  background-color: LavenderBlush;
+  background-color: #5A5B5B;
+}
+
+.color4 {
+  background-color: #A3A6A3;
+}
+
+.color5 {
+  background-color: #878384;
 }
 
 
