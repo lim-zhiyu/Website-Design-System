@@ -52,6 +52,11 @@ body {
   justify-content: center;
 }
 
+.flexDirectionColumn {
+  flex-direction: column;
+  text-align: left;
+  padding: 0 50px;
+}
 
 /*Color section*/
 
@@ -126,4 +131,28 @@ body {
 
 .fontExample {
   margin: 8px;
+}
+
+
+/*Text Style section*/
+.h1Style>span {
+  font-weight: 700;
+  font-size: 26px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.h2Style>span {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.pStyle>span {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.styleBox {
+  margin: 10px 0;
 }
